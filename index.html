@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PolyEdtech | Learn. Skill. Grow.</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo">Poly<span>Edtech</span></div>
+    <nav>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#registration">Registration</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Home -->
+<section id="home" class="section home">
+    <h1>Welcome to PolyEdtech</h1>
+    <p>
+        PolyEdtech is an innovative educational company focused on delivering
+        industry-oriented learning, skill development, and professional training
+        for students and working professionals.
+    </p>
+    <button onclick="scrollToSection('registration')">Enroll Now</button>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+        PolyEdtech is committed to bridging the gap between academic education and
+        industry requirements. We provide quality education, hands-on training,
+        and career-focused programs using modern technologies and expert faculty.
+    </p>
+    <p>
+        Our mission is to empower learners with practical knowledge, confidence,
+        and skills to succeed in today’s competitive world.
+    </p>
+</section>
+
+<!-- Services -->
+<section id="services" class="section light">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Technical Training</h3>
+            <p>Programming, Web Development, Data Science, AI & ML courses.</p>
+        </div>
+        <div class="card">
+            <h3>Professional Courses</h3>
+            <p>Industry-aligned certification and diploma programs.</p>
+        </div>
+        <div class="card">
+            <h3>Skill Development</h3>
+            <p>Hands-on training, live projects, and practical exposure.</p>
+        </div>
+        <div class="card">
+            <h3>Career Guidance</h3>
+            <p>Internships, placement support, and career counseling.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Registration -->
+<section id="registration" class="section">
+    <h2>Student Registration</h2>
+    <form id="regForm">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Mobile Number" required>
+        <select required>
+            <option value="">Select Course</option>
+            <option>Web Development</option>
+            <option>Python Programming</option>
+            <option>Data Science</option>
+            <option>AI & Machine Learning</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2025 PolyEdtech. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
